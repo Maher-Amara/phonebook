@@ -1,0 +1,4 @@
++20325146321,abed elhak,nader,22/11/2002,nader@email.com,tunis,7 novembre,3050
++21629179200,mlika,gaith,16/04/1999,gaith@email.com,sousse,14 janvier,4000
++21678945612,ben abedallah,karim,14/07/1997,karim@email.com,sousse,14 janvier,4500
++21524000231,salem,abess,17/02/1989,salem@email.com,mahdia,14 janvier,4000

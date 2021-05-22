@@ -1,0 +1,367 @@
+# depslib dependency file v1.0
+1621161617 source:c:\users\asus\desktop\c programming\repertoire téléphonique\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"variables.h"
+	"fonctions.h"
+	"enreg&recup.h"
+	"menus.h"
+	"ajout_tete_fenetre.h"
+	"ajout_queue_fenetre.h"
+	"affichage.h"
+	"ajout_position_nombre_fenetre.h"
+	"ajout_position_fenetre.h"
+	"suppression_position_nombre_fenetre.h"
+	"suppression_numero_fenetre.h"
+	"suppression_ville_fenetre.h"
+	"suppression_indicatif_fenetre.h"
+	"recherche_numero.h"
+	"recherche_numero_affichage.h"
+
+1621118785 c:\users\asus\desktop\c programming\repertoire téléphonique\variables.h
+
+1621113032 c:\users\asus\desktop\c programming\repertoire téléphonique\fonctions.h
+	"fonctions.c"
+
+1621160595 c:\users\asus\desktop\c programming\repertoire téléphonique\fonctions.c
+	<windows.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"variables.h"
+
+1620986614 c:\users\asus\desktop\c programming\repertoire téléphonique\enreg&recup.h
+	"enreg&recup.c"
+
+1621044404 c:\users\asus\desktop\c programming\repertoire téléphonique\enreg&recup.c
+	<string.h>
+	<math.h>
+
+1620855173 c:\users\asus\desktop\c programming\repertoire téléphonique\menus.h
+	"menus.c"
+
+1620982198 c:\users\asus\desktop\c programming\repertoire téléphonique\menus.c
+	<windows.h>
+
+1620939600 c:\users\asus\desktop\c programming\repertoire téléphonique\ajoutwindow.h
+	"ajoutWindow.c"
+	"variables.h"
+
+1620942581 c:\users\asus\desktop\c programming\repertoire téléphonique\ajoutwindow.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"variables.h"
+
+1620920147 source:c:\users\asus\desktop\c programming\repertoire téléphonique\ajoutwindow.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"variables.h"
+
+1620950575 c:\users\asus\desktop\c programming\repertoire téléphonique\ajout_tete_fenetre.h
+	"ajout_tete_fenetre.c"
+
+1621118571 c:\users\asus\desktop\c programming\repertoire téléphonique\ajout_tete_fenetre.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"variables.h"
+	"fonctions.h"
+
+1620950403 source:c:\users\asus\desktop\c programming\repertoire téléphonique\ajout_tete_fenetre.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"variables.h"
+	"fonctions.h"
+
+1620951269 c:\users\asus\desktop\c programming\repertoire téléphonique\affichage.h
+	"affichage.c"
+
+1621406516 c:\users\asus\desktop\c programming\repertoire téléphonique\affichage.c
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	<commctrl.h>
+	"variables.h"
+	"fonctions.h"
+
+1620984850 c:\users\asus\desktop\c programming\repertoire téléphonique\ajout_queue_fenetre.h
+	"ajout_queue_fenetre.c"
+
+1621118572 c:\users\asus\desktop\c programming\repertoire téléphonique\ajout_queue_fenetre.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"variables.h"
+	"fonctions.h"
+
+1621031505 c:\users\asus\desktop\c programming\repertoire téléphonique\ajout_position_nombre_fenetre.h
+	"ajout_position_nombre_fenetre.c"
+
+1621034598 c:\users\asus\desktop\c programming\repertoire téléphonique\ajout_position_nombre_fenetre.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"variables.h"
+	"fonctions.h"
+	"ajout_position_fenetre.h"
+
+1621031400 c:\users\asus\desktop\c programming\repertoire téléphonique\ajout_position_fenetre.h
+	"ajout_position_fenetre.c"
+
+1621118548 c:\users\asus\desktop\c programming\repertoire téléphonique\ajout_position_fenetre.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"variables.h"
+	"fonctions.h"
+	"ajout_position_nombre_fenetre.h"
+
+1621066044 c:\users\asus\desktop\c programming\repertoire téléphonique\suppression_position_nombre_fenetre.h
+	"suppression_position_nombre_fenetre.c"
+
+1621067521 c:\users\asus\desktop\c programming\repertoire téléphonique\suppression_position_nombre_fenetre.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"variables.h"
+	"fonctions.h"
+	"ajout_position_fenetre.h"
+	"affichage.h"
+
+1621071104 c:\users\asus\desktop\c programming\repertoire téléphonique\suppression_numero_fenetre.h
+	"suppression_numero_fenetre.c"
+
+1621119353 c:\users\asus\desktop\c programming\repertoire téléphonique\suppression_numero_fenetre.c
+	"fonctions.h"
+	"ajout_position_fenetre.h"
+	"affichage.h"
+
+1621078197 c:\users\asus\desktop\c programming\repertoire téléphonique\suppression_ville_fenetre.h
+	"suppression_ville_donnee.c"
+
+1621113043 c:\users\asus\desktop\c programming\repertoire téléphonique\suppression_ville_donnee.c
+	"fonctions.h"
+	"ajout_position_fenetre.h"
+	"affichage.h"
+
+1621123501 c:\users\asus\desktop\c programming\repertoire téléphonique\suppression_indicatif_fenetre.h
+	"suppression_indicatif_fenetre.c"
+
+1621123700 c:\users\asus\desktop\c programming\repertoire téléphonique\suppression_indicatif_fenetre.c
+	"fonctions.h"
+	"ajout_position_fenetre.h"
+	"affichage.h"
+
+1621159647 c:\users\asus\desktop\c programming\repertoire téléphonique\recherche_numero.h
+	"recherche_numero.c"
+
+1621162572 c:\users\asus\desktop\c programming\repertoire téléphonique\recherche_numero.c
+	"fonctions.h"
+	"variables.h"
+	"recherche_numero_affichage.c"
+
+1621161807 c:\users\asus\desktop\c programming\repertoire téléphonique\recherche_numero_affichage.h
+
+1621161617 c:\users\asus\desktop\c programming\repertoire téléphonique\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"variables.h"
+	"fonctions.h"
+	"enreg&recup.h"
+	"menus.h"
+	"ajout_tete_fenetre.h"
+	"ajout_queue_fenetre.h"
+	"affichage.h"
+	"ajout_position_nombre_fenetre.h"
+	"ajout_position_fenetre.h"
+	"suppression_position_nombre_fenetre.h"
+	"suppression_numero_fenetre.h"
+	"suppression_ville_fenetre.h"
+	"suppression_indicatif_fenetre.h"
+	"recherche_numero.h"
+	"recherche_numero_affichage.h"
+
+1621162784 c:\users\asus\desktop\c programming\repertoire téléphonique\recherche_numero_affichage.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"variables.h"
+	"fonctions.h"
+
+1621609938 source:c:\users\asus\desktop\c programming\repertoire telephonique 1\ajout_tete_fenetre.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"variables.h"
+	"fonctions.h"
+
+1621610124 c:\users\asus\desktop\c programming\repertoire telephonique 1\variables.h
+
+1621113032 c:\users\asus\desktop\c programming\repertoire telephonique 1\fonctions.h
+	"fonctions.c"
+
+1621610290 c:\users\asus\desktop\c programming\repertoire telephonique 1\fonctions.c
+	<windows.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"variables.h"
+
+1621610264 source:c:\users\asus\desktop\c programming\repertoire telephonique 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"variables.h"
+	"fonctions.h"
+	"enreg&recup.h"
+	"menus.h"
+	"ajout_tete_fenetre.h"
+	"ajout_queue_fenetre.h"
+	"ajout_position_fenetre.h"
+	"affichage.h"
+	"ajout_position_nombre_fenetre.h"
+	"suppression_position_nombre_fenetre.h"
+
+1620986614 c:\users\asus\desktop\c programming\repertoire telephonique 1\enreg&recup.h
+	"enreg&recup.c"
+
+1621044404 c:\users\asus\desktop\c programming\repertoire telephonique 1\enreg&recup.c
+	<string.h>
+	<math.h>
+
+1620855173 c:\users\asus\desktop\c programming\repertoire telephonique 1\menus.h
+	"menus.c"
+
+1621609992 c:\users\asus\desktop\c programming\repertoire telephonique 1\menus.c
+	<windows.h>
+	"variables.h"
+
+1620950575 c:\users\asus\desktop\c programming\repertoire telephonique 1\ajout_tete_fenetre.h
+	"ajout_tete_fenetre.c"
+
+1621609938 c:\users\asus\desktop\c programming\repertoire telephonique 1\ajout_tete_fenetre.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"variables.h"
+	"fonctions.h"
+
+1620984850 c:\users\asus\desktop\c programming\repertoire telephonique 1\ajout_queue_fenetre.h
+	"ajout_queue_fenetre.c"
+
+1621118572 c:\users\asus\desktop\c programming\repertoire telephonique 1\ajout_queue_fenetre.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"variables.h"
+	"fonctions.h"
+
+1621031400 c:\users\asus\desktop\c programming\repertoire telephonique 1\ajout_position_fenetre.h
+	"ajout_position_fenetre.c"
+
+1621566163 c:\users\asus\desktop\c programming\repertoire telephonique 1\ajout_position_fenetre.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"variables.h"
+	"fonctions.h"
+	"ajout_position_nombre_fenetre.h"
+
+1621031505 c:\users\asus\desktop\c programming\repertoire telephonique 1\ajout_position_nombre_fenetre.h
+	"ajout_position_nombre_fenetre.c"
+
+1621565954 c:\users\asus\desktop\c programming\repertoire telephonique 1\ajout_position_nombre_fenetre.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"variables.h"
+	"fonctions.h"
+	"ajout_position_fenetre.h"
+
+1620951269 c:\users\asus\desktop\c programming\repertoire telephonique 1\affichage.h
+	"affichage.c"
+
+1621566103 c:\users\asus\desktop\c programming\repertoire telephonique 1\affichage.c
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	<commctrl.h>
+	"variables.h"
+	"fonctions.h"
+
+1621066044 c:\users\asus\desktop\c programming\repertoire telephonique 1\suppression_position_nombre_fenetre.h
+	"suppression_position_nombre_fenetre.c"
+
+1621067521 c:\users\asus\desktop\c programming\repertoire telephonique 1\suppression_position_nombre_fenetre.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"variables.h"
+	"fonctions.h"
+	"ajout_position_fenetre.h"
+	"affichage.h"
+
+1621071104 c:\users\asus\desktop\c programming\repertoire telephonique 1\suppression_numero_fenetre.h
+	"suppression_numero_fenetre.c"
+
+1621565719 c:\users\asus\desktop\c programming\repertoire telephonique 1\suppression_numero_fenetre.c
+	"fonctions.h"
+	"ajout_position_fenetre.h"
+	"affichage.h"
+
+1621078197 c:\users\asus\desktop\c programming\repertoire telephonique 1\suppression_ville_fenetre.h
+	"suppression_ville_donnee.c"
+
+1621565705 c:\users\asus\desktop\c programming\repertoire telephonique 1\suppression_ville_donnee.c
+	"fonctions.h"
+	"ajout_position_fenetre.h"
+	"affichage.h"
+
+1621123501 c:\users\asus\desktop\c programming\repertoire telephonique 1\suppression_indicatif_fenetre.h
+	"suppression_indicatif_fenetre.c"
+
+1621565757 c:\users\asus\desktop\c programming\repertoire telephonique 1\suppression_indicatif_fenetre.c
+	"fonctions.h"
+	"ajout_position_fenetre.h"
+	"affichage.h"
+
+1621159647 c:\users\asus\desktop\c programming\repertoire telephonique 1\recherche_numero.h
+	"recherche_numero.c"
+
+1621565759 c:\users\asus\desktop\c programming\repertoire telephonique 1\recherche_numero.c
+	"fonctions.h"
+	"variables.h"
+	"recherche_numero_affichage.c"
+
+1621162784 c:\users\asus\desktop\c programming\repertoire telephonique 1\recherche_numero_affichage.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"variables.h"
+	"fonctions.h"
+
+1621161807 c:\users\asus\desktop\c programming\repertoire telephonique 1\recherche_numero_affichage.h
+
