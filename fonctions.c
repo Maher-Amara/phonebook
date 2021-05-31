@@ -13,7 +13,7 @@
 *
 *    FONCTION: taille_liste_rep
 *
-*    BUT: renvoie la taille du répaertoire téléphonique.
+*    BUT: renvoie la taille du rï¿½paertoire tï¿½lï¿½phonique.
 *
 ****************************************************************************/
 
@@ -36,7 +36,7 @@ int taille_liste_rep (repertoire rt){
 *
 *    FONCTION: recherche_tel
 *
-*    BUT: vérifie si un numero est déja existant.
+*    BUT: vï¿½rifie si un numero est dï¿½ja existant.
 *
 ****************************************************************************/
 
@@ -57,7 +57,7 @@ int taille_liste_rep (repertoire rt){
 *
 *    FONCTION: insere_tete_tel
 *
-*    BUT: inserer un contact en tête du répertoire
+*    BUT: inserer un contact en tï¿½te du rï¿½pertoire
 *
 ****************************************************************************/
 
@@ -76,7 +76,7 @@ repertoire insere_tete_tel(repertoire rt, contact cont){
 *
 *    FONCTION: insere_queue_tel
 *
-*    BUT: inserer un contact en queue du répertoire
+*    BUT: inserer un contact en queue du rï¿½pertoire
 *
 ****************************************************************************/
 
@@ -105,7 +105,7 @@ repertoire insere_queue_tel (repertoire rt, contact cont){
 *
 *    FONCTION: insere_pos_tel
 *
-*    BUT: inserer un contact dans une position précisée dans le répertoire.
+*    BUT: inserer un contact dans une position prï¿½cisï¿½e dans le rï¿½pertoire.
 *
 ****************************************************************************/
 void insere_pos_tel (repertoire rt, contact cont, int position){
@@ -130,7 +130,7 @@ void insere_pos_tel (repertoire rt, contact cont, int position){
 *
 *    FONCTION: supprimer_tete_tel
 *
-*    BUT: supprimer un contact en tête du répertoire
+*    BUT: supprimer un contact en tï¿½te du rï¿½pertoire
 *
 ****************************************************************************/
 
@@ -150,7 +150,7 @@ repertoire supprimer_tete_tel(repertoire rt){
 *
 *    FONCTION: supprimer_queue_tel
 *
-*    BUT: supprimer un contact en queue du répertoire
+*    BUT: supprimer un contact en queue du rï¿½pertoire
 *
 ****************************************************************************/
 
@@ -171,7 +171,7 @@ repertoire supprimer_queue_tel (repertoire rt){
 *
 *    FONCTION: supprimer_pos_tel
 *
-*    BUT: supprimer un contact dans une position donnée
+*    BUT: supprimer un contact dans une position donnï¿½e
 *
 ****************************************************************************/
 
@@ -206,15 +206,15 @@ void supprimer_pos_tel (repertoire rt, int position){
 *
 *    FONCTION: creation
 *
-*    BUT: creation d'un contact à partir d'un String
-*    (à utiliser avec la fonction recuperation).
+*    BUT: creation d'un contact ï¿½ partir d'un String
+*    (ï¿½ utiliser avec la fonction recuperation).
 *
 ****************************************************************************/
 
 contact creation (char contact_info [500]){
 
     char *ptr = strtok(contact_info,",");
-    char *data [9]; // contient la date après séparation jour,mois,année
+    char *data [9]; // contient la date aprï¿½s sï¿½paration jour,mois,annï¿½e
     int i =0;
 
     while (ptr != NULL){
@@ -241,20 +241,18 @@ contact creation (char contact_info [500]){
 *
 *    FONCTION: verifier_date
 *
-*    BUT: vérifie si une date de naissance est légitime.
+*    BUT: vï¿½rifie si une date de naissance est lï¿½gitime.
 *
 ****************************************************************************/
 
 int verifier_date (char date [20]){
-
-
         char date_naissance [20];
         strcpy(date_naissance,date);
         int i =0;
 
 
        char *ptr = strtok(date_naissance,"/");
-       char *data [3]; // contient la date après séparation jour,mois,année
+       char *data [3]; // contient la date aprï¿½s sï¿½paration jour,mois,annï¿½e
 
        while (ptr != NULL){
         data[i++] = ptr;
@@ -262,7 +260,7 @@ int verifier_date (char date [20]){
        }
 
 
-        if (strlen(date) != 10 || strlen(data[0]) != 2 || // vérifier si la date est sous la forme jj/mm/aaaa
+        if (strlen(date) != 10 || strlen(data[0]) != 2 || // vï¿½rifier si la date est sous la forme jj/mm/aaaa
             strlen(data[1]) != 2 || strlen(data[2]) != 4 || i != 3 ){
                 return -1;
             }
@@ -275,7 +273,7 @@ int verifier_date (char date [20]){
         int mois_max = 12;
         int jour_max = 0;
 
-        // verifier si l'année est bissextile
+        // verifier si l'annï¿½e est bissextile
         if (((annee%4 == 0) && (annee%100 != 0)) || annee%400 == 0){
 
             bissextile = 1;
@@ -309,18 +307,10 @@ int verifier_date (char date [20]){
 
 
         }
-
         if (jour<0 || jour>jour_max){
             return -1;
         }
-
-
-
         return 1;
-
-
-
-
 }
 
  /****************************************************************************
@@ -328,7 +318,7 @@ int verifier_date (char date [20]){
 *
 *    FONCTION: verifier_numero
 *
-*    BUT: vérifie si un numéro est légitime (composé de 8 numero)
+*    BUT: vï¿½rifie si un numï¿½ro est lï¿½gitime (composï¿½ de 8 numero)
 *
 ****************************************************************************/
 
@@ -356,7 +346,7 @@ int verifier_numero(char numero [30]){
     num_telephone = atoi(num_telephone_string);
     printf("%d\n",num_telephone);
 
-    int longueur = floor(log10(num_telephone))+1; // longeur du numero doit être composé de 8 numéros.
+    int longueur = floor(log10(num_telephone))+1; // longeur du numero doit ï¿½tre composï¿½ de 8 numï¿½ros.
 
     if (strchr(indicatif,'+') < 0){
         return -1 ;
@@ -404,7 +394,7 @@ void afficher (repertoire rt){
 *
 *    FONCTION: saisie_contact
 *
-*    BUT: saisie des données d'un contact
+*    BUT: saisie des donnï¿½es d'un contact
 *
 ****************************************************************************/
 

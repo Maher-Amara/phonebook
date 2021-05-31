@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include<windows.h>
+#include <windows.h>
 
 #include "variables.h"
 #include "fonctions.h"
@@ -13,7 +13,6 @@
 #include "ajout_position_fenetre.h"
 #include "affichage.h"
 #include "ajout_position_nombre_fenetre.h"
-
 #include "suppression_position_nombre_fenetre.h"
 
 
@@ -52,25 +51,17 @@ int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR args, in
 
     main_window = CreateWindowW(L"mainWindow",L"Repertoire telephonique",WS_OVERLAPPEDWINDOW | WS_VISIBLE,
                                 100,100,800,800,NULL,NULL,NULL,NULL);
-
-
     MSG msg = {0};
-
     while(GetMessage(&msg,NULL,NULL,NULL)){
         TranslateMessage(&msg);
         DispatchMessage(&msg);
     }
-
-
     return 0;
-
-
-
 }
 
+
+
 /** PROCEDURE FOR MAIN WINDOW **/
-
-
 LRESULT CALLBACK WindowProcedure (HWND hwnd,UINT msg,WPARAM wp,LPARAM lp){
 
     switch(msg){
